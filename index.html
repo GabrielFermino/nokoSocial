@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nokoSocial</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">
+                nokoSocial
+            </h2>
+            <div class="search-bar">
+                <i class='uil uil-search'></i>
+                <input type="search" placeholder="Search for creators,inspirations and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-picture">
+                    <img src="./assets/profile-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <! -- Main Section -- >
+    <main>
+        <div class="container">
+            <div class="left-sidebar">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="./assets/profile-1.jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Diana Ayi</h4>
+                        <p class="text-muted">
+                            @dayi
+                        </p>
+                    </div>
+                </a>
+
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class='uil uil-home'></i></span><h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='uil uil-compass'></i></span><h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class='uil uil-bell'><small class="notification-count">6</small></i></span><h3>Notifications</h3>
+                        <div class="notification-popup">
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="./assets/profile-4.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Mary B. Rocha</b> and <b>283 others</b> liked your post
+                                    <small class="text-muted">4 MINUTES AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="./assets/profile-3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Isadora B. Rocha</b> commented on your post
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="./assets/profile-7.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Marlon B. Random</b> commented on a post you are tagged in
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="./assets/profile-6.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Amanda K. Yumi</b> commented on a post you are tagged in
+                                    <small class="text-muted">1 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="./assets/profile-2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Travis K. Elce</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-picture">
+                                    <img src="./assets/profile-5.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Charlie P. Uth</b> commented on a post you are tagged in
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class='uil uil-envelope-alt'><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='uil uil-bookmark'></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='uil uil-chart-line'></i></span><h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id ="theme">
+                        <span><i class='uil uil-palette'></i></span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='uil uil-setting'></i></span><h3>Settings</h3>
+                    </a>
+                </div>
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            
+            <div class="feed">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-1.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-8.jpg" alt="">
+                        </div>
+                        <p class="name">Gabriel C. Fermino</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-9.jpg" alt="">
+                        </div>
+                        <p class="name">Carimbo Miguel</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-10.jpg" alt="">
+                        </div>
+                        <p class="name">Shekira</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-11.jpg" alt="">
+                        </div>
+                        <p class="name">Carlos Eduardo</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-12.jpg" alt="">
+                        </div>
+                        <p class="name">Maria Eduarda</p>
+                    </div>
+                </div>
+                <form class="create-post">
+                    <div class="profile-picture">
+                        <img src="./assets/profile-1.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on yout mind, Diana?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <div class="feeds">
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./assets/profile-12.jpg" alt="">
+                                </div>
+                            <div class="info">
+                                <h3>Olivia Rogério</h3>
+                                <small>Dubai, 15 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class='uil uil-ellipsis-h'></i>
+                        </span>
+                    </div>
+                    <div class="photo">
+                        <img src="./assets/feed-1.jpg" alt="">
+                    </div>
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class='uil uil-bookmark-full'></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./assets/profile-10.jpg" alt=""></span>                
+                        <span><img src="./assets/profile-5.jpg" alt=""></span>                
+                        <span><img src="./assets/profile-15.jpg" alt=""></span>
+                        <p>Liked by <b>Shekira</b> and <b>2,345 others</b> </p>                
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Olivia Rogério</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <span class="hashtag">#Lifestyle</span></p>
+                    </div>
+
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-picture">
+                                    <img src="./assets/profile-12.jpg" alt="">
+                                </div>
+                            <div class="info">
+                                <h3>Olivia Rogério</h3>
+                                <small>Dublin, 3 DAYS AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class='uil uil-ellipsis-h'></i>
+                        </span>
+                    </div>
+                    <div class="photo">
+                        <img src="./assets/feed-3.jpg" alt="">
+                    </div>
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class='uil uil-bookmark-full'></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./assets/profile-10.jpg" alt=""></span>                
+                        <span><img src="./assets/profile-5.jpg" alt=""></span>                
+                        <span><img src="./assets/profile-15.jpg" alt=""></span>
+                        <p>Liked by <b>Shekira</b> and <b>5,675 others</b> </p>                
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Olivia Rogério</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <span class="hashtag">#Lifestyle</span></p>
+                    </div>
+
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+                </div>
+            </div>
+
+            <div class="right-sidebar">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search for messages" id="message-search">
+                    </div>
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-17.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Edem Quist</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-18.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Juliette Makarey</h5>
+                            <p class="text-bold">2 new messages</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-19.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Chantel Msiza</h5>
+                            <p class="text-muted">Birthday tomorrow!!</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-picture">
+                            <img src="./assets/profile-20.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Priscilla V. Iadão</h5>
+                            <p class="text-muted">Hello!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-requests">
+                    <h4>Friend Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-picture">
+                                <img src="./assets/profile-18.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Pedro S. Onic</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size, color and background.</p>
+
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <div class="background-color">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for = "bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for = "bg-3">Lights Out</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src = "./script.js"></script>
+</body>
+</html>
